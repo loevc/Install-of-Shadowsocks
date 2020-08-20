@@ -7,7 +7,7 @@ Last month , i find it .
 Google help me see the more science knowlarge , i just learn more by wished.
 
 ## waht i get in the github 
-Search "shadowsocks" ,I get the https://github.com/shadowsocks/shadowsocks-windows  tools.
+Search "shadowsocks" ,I get the tools from [Here](https://github.com/shadowsocks/shadowsocks-windows).
 
 ## tools
 pip
@@ -51,7 +51,7 @@ logfile=/var/log/shadowsocks.log   #for  different kernel，the file maybe not e
 vim /etc/rc.local
 ```
 
-the command reboot can use "init6" or  "reboot"
+the command reboot can use "**init6**" or  "**reboot**"
 
 ```
 ssserver -c /etc/shadowsocks.json -d start
