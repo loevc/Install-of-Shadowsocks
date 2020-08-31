@@ -64,3 +64,34 @@ test bbr
 sysctl net.ipv4.tcp_congestion_control
 sysctl net.ipv4.tcp_available_congestion_control
 ```
+
+
+i found a thing that the server will go slowly by the system running away.
+reboot the system will solve this problem , maybe it products a lot caches.
+how to reboot nobody ?
+i search a method 
+use the crontab
+
+let 
+```
+cat /etc/crontab
+
+```
+the first open it  ,
+there will have a doc to tell you this's format
+
+```
+vim /etc/crontab
+```
+to add below cotent
+
+```
+15 04 * * 1 root reboot
+20 04 * * 1 root /usr/local/bin/ssserver -c /etc/shadowsocks.json -d start
+```
+
+then to reboot the server crontab
+```
+systemctl restart crond.service
+```
+the  crond  have other parameter that "reload  start"
