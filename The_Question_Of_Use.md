@@ -20,7 +20,7 @@ Use shadowsocks  based on LNTU's Campus Network (It uses a SRUN's network)
 
 ### 2 Cancel the agent in the ie settings To test whether a system agent is used
 
-> **It doesn't work **
+> **It doesn't work**
 
 ### 3 Test IP & DNS to resolve Net path judgment
 
@@ -34,7 +34,7 @@ Use shadowsocks  based on LNTU's Campus Network (It uses a SRUN's network)
 >
 > Here are two 
 >
->  >211.137.32.178(Maybe yours is different)
+>  >211.137.32.178(Maybe yours is different)  
 >  >1.1.1.1
 >
 > Replace the DNS server and find no problems for the common **114.114.114.114**
