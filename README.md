@@ -95,3 +95,9 @@ then to reboot the server crontab
 systemctl restart crond.service
 ```
 the  crond  have other parameter that "reload  start"
+
+view the version of shadowsocks 
+```
+pip show shadowsocks
+```
+
